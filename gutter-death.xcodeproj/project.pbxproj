@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74EE5B521FAFB4EC00725283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EE5B511FAFB4EC00725283 /* AppDelegate.swift */; };
+		74EE5B541FAFB4EC00725283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EE5B531FAFB4EC00725283 /* ViewController.swift */; };
+		74EE5B571FAFB4EC00725283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74EE5B551FAFB4EC00725283 /* Main.storyboard */; };
+		74EE5B591FAFB4EC00725283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EE5B581FAFB4EC00725283 /* Assets.xcassets */; };
+		74EE5B5C1FAFB4EC00725283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74EE5B5A1FAFB4EC00725283 /* LaunchScreen.storyboard */; };
+		74EE5B671FAFB4EC00725283 /* gutter_deathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EE5B661FAFB4EC00725283 /* gutter_deathTests.swift */; };
+		74EE5B721FAFB4EC00725283 /* gutter_deathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EE5B711FAFB4EC00725283 /* gutter_deathUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74EE5B631FAFB4EC00725283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74EE5B461FAFB4EC00725283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74EE5B4D1FAFB4EC00725283;
+			remoteInfo = "gutter-death";
+		};
+		74EE5B6E1FAFB4EC00725283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74EE5B461FAFB4EC00725283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74EE5B4D1FAFB4EC00725283;
+			remoteInfo = "gutter-death";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74EE5B4E1FAFB4EC00725283 /* gutter-death.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gutter-death.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EE5B511FAFB4EC00725283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74EE5B531FAFB4EC00725283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74EE5B561FAFB4EC00725283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74EE5B581FAFB4EC00725283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74EE5B5B1FAFB4EC00725283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74EE5B5D1FAFB4EC00725283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74EE5B621FAFB4EC00725283 /* gutter-deathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gutter-deathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EE5B661FAFB4EC00725283 /* gutter_deathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gutter_deathTests.swift; sourceTree = "<group>"; };
+		74EE5B681FAFB4EC00725283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74EE5B6D1FAFB4EC00725283 /* gutter-deathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gutter-deathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EE5B711FAFB4EC00725283 /* gutter_deathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gutter_deathUITests.swift; sourceTree = "<group>"; };
+		74EE5B731FAFB4EC00725283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74EE5B4B1FAFB4EC00725283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EE5B5F1FAFB4EC00725283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EE5B6A1FAFB4EC00725283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74EE5B451FAFB4EC00725283 = {
+			isa = PBXGroup;
+			children = (
+				74EE5B501FAFB4EC00725283 /* gutter-death */,
+				74EE5B651FAFB4EC00725283 /* gutter-deathTests */,
+				74EE5B701FAFB4EC00725283 /* gutter-deathUITests */,
+				74EE5B4F1FAFB4EC00725283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74EE5B4F1FAFB4EC00725283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74EE5B4E1FAFB4EC00725283 /* gutter-death.app */,
+				74EE5B621FAFB4EC00725283 /* gutter-deathTests.xctest */,
+				74EE5B6D1FAFB4EC00725283 /* gutter-deathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74EE5B501FAFB4EC00725283 /* gutter-death */ = {
+			isa = PBXGroup;
+			children = (
+				74EE5B511FAFB4EC00725283 /* AppDelegate.swift */,
+				74EE5B531FAFB4EC00725283 /* ViewController.swift */,
+				74EE5B551FAFB4EC00725283 /* Main.storyboard */,
+				74EE5B581FAFB4EC00725283 /* Assets.xcassets */,
+				74EE5B5A1FAFB4EC00725283 /* LaunchScreen.storyboard */,
+				74EE5B5D1FAFB4EC00725283 /* Info.plist */,
+			);
+			path = "gutter-death";
+			sourceTree = "<group>";
+		};
+		74EE5B651FAFB4EC00725283 /* gutter-deathTests */ = {
+			isa = PBXGroup;
+			children = (
+				74EE5B661FAFB4EC00725283 /* gutter_deathTests.swift */,
+				74EE5B681FAFB4EC00725283 /* Info.plist */,
+			);
+			path = "gutter-deathTests";
+			sourceTree = "<group>";
+		};
+		74EE5B701FAFB4EC00725283 /* gutter-deathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74EE5B711FAFB4EC00725283 /* gutter_deathUITests.swift */,
+				74EE5B731FAFB4EC00725283 /* Info.plist */,
+			);
+			path = "gutter-deathUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74EE5B4D1FAFB4EC00725283 /* gutter-death */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74EE5B761FAFB4EC00725283 /* Build configuration list for PBXNativeTarget "gutter-death" */;
+			buildPhases = (
+				74EE5B4A1FAFB4EC00725283 /* Sources */,
+				74EE5B4B1FAFB4EC00725283 /* Frameworks */,
+				74EE5B4C1FAFB4EC00725283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gutter-death";
+			productName = "gutter-death";
+			productReference = 74EE5B4E1FAFB4EC00725283 /* gutter-death.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74EE5B611FAFB4EC00725283 /* gutter-deathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74EE5B791FAFB4EC00725283 /* Build configuration list for PBXNativeTarget "gutter-deathTests" */;
+			buildPhases = (
+				74EE5B5E1FAFB4EC00725283 /* Sources */,
+				74EE5B5F1FAFB4EC00725283 /* Frameworks */,
+				74EE5B601FAFB4EC00725283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74EE5B641FAFB4EC00725283 /* PBXTargetDependency */,
+			);
+			name = "gutter-deathTests";
+			productName = "gutter-deathTests";
+			productReference = 74EE5B621FAFB4EC00725283 /* gutter-deathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74EE5B6C1FAFB4EC00725283 /* gutter-deathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74EE5B7C1FAFB4EC00725283 /* Build configuration list for PBXNativeTarget "gutter-deathUITests" */;
+			buildPhases = (
+				74EE5B691FAFB4EC00725283 /* Sources */,
+				74EE5B6A1FAFB4EC00725283 /* Frameworks */,
+				74EE5B6B1FAFB4EC00725283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74EE5B6F1FAFB4EC00725283 /* PBXTargetDependency */,
+			);
+			name = "gutter-deathUITests";
+			productName = "gutter-deathUITests";
+			productReference = 74EE5B6D1FAFB4EC00725283 /* gutter-deathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74EE5B461FAFB4EC00725283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = nwilde1590;
+				TargetAttributes = {
+					74EE5B4D1FAFB4EC00725283 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					74EE5B611FAFB4EC00725283 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74EE5B4D1FAFB4EC00725283;
+					};
+					74EE5B6C1FAFB4EC00725283 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74EE5B4D1FAFB4EC00725283;
+					};
+				};
+			};
+			buildConfigurationList = 74EE5B491FAFB4EC00725283 /* Build configuration list for PBXProject "gutter-death" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74EE5B451FAFB4EC00725283;
+			productRefGroup = 74EE5B4F1FAFB4EC00725283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74EE5B4D1FAFB4EC00725283 /* gutter-death */,
+				74EE5B611FAFB4EC00725283 /* gutter-deathTests */,
+				74EE5B6C1FAFB4EC00725283 /* gutter-deathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74EE5B4C1FAFB4EC00725283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EE5B5C1FAFB4EC00725283 /* LaunchScreen.storyboard in Resources */,
+				74EE5B591FAFB4EC00725283 /* Assets.xcassets in Resources */,
+				74EE5B571FAFB4EC00725283 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EE5B601FAFB4EC00725283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EE5B6B1FAFB4EC00725283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74EE5B4A1FAFB4EC00725283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EE5B541FAFB4EC00725283 /* ViewController.swift in Sources */,
+				74EE5B521FAFB4EC00725283 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EE5B5E1FAFB4EC00725283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EE5B671FAFB4EC00725283 /* gutter_deathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EE5B691FAFB4EC00725283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EE5B721FAFB4EC00725283 /* gutter_deathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74EE5B641FAFB4EC00725283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74EE5B4D1FAFB4EC00725283 /* gutter-death */;
+			targetProxy = 74EE5B631FAFB4EC00725283 /* PBXContainerItemProxy */;
+		};
+		74EE5B6F1FAFB4EC00725283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74EE5B4D1FAFB4EC00725283 /* gutter-death */;
+			targetProxy = 74EE5B6E1FAFB4EC00725283 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74EE5B551FAFB4EC00725283 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74EE5B561FAFB4EC00725283 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74EE5B5A1FAFB4EC00725283 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74EE5B5B1FAFB4EC00725283 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74EE5B741FAFB4EC00725283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74EE5B751FAFB4EC00725283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74EE5B771FAFB4EC00725283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZ9DFDM63;
+				INFOPLIST_FILE = "gutter-death/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stuffz.gutter-death";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74EE5B781FAFB4EC00725283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZ9DFDM63;
+				INFOPLIST_FILE = "gutter-death/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stuffz.gutter-death";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74EE5B7A1FAFB4EC00725283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZ9DFDM63;
+				INFOPLIST_FILE = "gutter-deathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stuffz.gutter-deathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gutter-death.app/gutter-death";
+			};
+			name = Debug;
+		};
+		74EE5B7B1FAFB4EC00725283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZ9DFDM63;
+				INFOPLIST_FILE = "gutter-deathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stuffz.gutter-deathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gutter-death.app/gutter-death";
+			};
+			name = Release;
+		};
+		74EE5B7D1FAFB4EC00725283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZ9DFDM63;
+				INFOPLIST_FILE = "gutter-deathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stuffz.gutter-deathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gutter-death";
+			};
+			name = Debug;
+		};
+		74EE5B7E1FAFB4EC00725283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTZ9DFDM63;
+				INFOPLIST_FILE = "gutter-deathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stuffz.gutter-deathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gutter-death";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74EE5B491FAFB4EC00725283 /* Build configuration list for PBXProject "gutter-death" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74EE5B741FAFB4EC00725283 /* Debug */,
+				74EE5B751FAFB4EC00725283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74EE5B761FAFB4EC00725283 /* Build configuration list for PBXNativeTarget "gutter-death" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74EE5B771FAFB4EC00725283 /* Debug */,
+				74EE5B781FAFB4EC00725283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74EE5B791FAFB4EC00725283 /* Build configuration list for PBXNativeTarget "gutter-deathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74EE5B7A1FAFB4EC00725283 /* Debug */,
+				74EE5B7B1FAFB4EC00725283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74EE5B7C1FAFB4EC00725283 /* Build configuration list for PBXNativeTarget "gutter-deathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74EE5B7D1FAFB4EC00725283 /* Debug */,
+				74EE5B7E1FAFB4EC00725283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74EE5B461FAFB4EC00725283 /* Project object */;
+}
